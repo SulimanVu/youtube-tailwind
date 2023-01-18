@@ -1,0 +1,15 @@
+.search_block input {
+  border-top-left-radius: 3px;
+  border-bottom-left-radius: 3px;
+  outline: none;
+  caret-color: #fff;
+  border: none;
+}
+.search {
+  padding: 0 25px;
+  border-top-right-radius: 3px;
+  border-bottom-right-radius: 3px;
+}
+.header {
+  padding: 10px 0;
+}
