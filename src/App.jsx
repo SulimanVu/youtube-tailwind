@@ -7,7 +7,7 @@ const App = () => {
   return (
     <>
       <Header />
-      <div className="flex w-full">
+      <div className="flex w-full overflow-x-hidden">
           <Sidebar />
           <CardBlock />
       </div>

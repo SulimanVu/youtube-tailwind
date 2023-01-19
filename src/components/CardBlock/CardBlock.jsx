@@ -3,9 +3,9 @@ import Navbar from "../Navbar/Navbar";
 
 const CardBlock = () => {
   return (
-    <div className="card_block flex w-full">
+    <div className="card_block relative flex w-full min-h-full bg-black">
       <Navbar />
-      <div className="text-white w-full bg-black">Cards</div>
+      <div className="text-w  hite w-full">Cards</div>
     </div>
   );
 };

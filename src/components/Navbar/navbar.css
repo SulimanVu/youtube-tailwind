@@ -1,0 +1,18 @@
+.variant {
+  background-color: rgba(32, 32, 32, 0.95);
+  border-top: 1px solid rgba(56, 56, 56, 1);
+  border-bottom: 1px solid rgba(56, 56, 56, 1);
+}
+.variant:hover {
+  cursor: pointer;
+}
+.variant::-webkit-scrollbar {
+  width: 0px;
+}
+.v_child {
+  background-color: rgba(55, 55, 55, 1);
+}
+.v_child:hover {
+  background-color: rgb(135, 135, 135);
+  transition: 0.4s;
+}

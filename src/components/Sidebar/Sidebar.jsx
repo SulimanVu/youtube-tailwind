@@ -20,7 +20,7 @@ import {
 
 const Sidebar = () => {
   return (
-    <div className="navbar w-1/10">
+    <div className="navbar w-1/10 pr-6 overflow-hidden">
       <div>
         <AiFillHome color="rgb(82, 82, 82)" size={25} />
         <span>Home</span>

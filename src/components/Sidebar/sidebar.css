@@ -1,25 +1,48 @@
-.navbar div{
-    display: flex;
-    width: 100%;
-    margin: 10px 20px;
-    color: #fff;
-    justify-content: flex-start;
+.navbar {
+  height: 100vh;
+  box-sizing: border-box;
+  max-height: 93vh;
 }
-.navbar div:hover{
-    cursor: pointer;
+.navbar:hover {
+  overflow-y: auto;
+  overflow-x: hidden;
 }
-.navbar div span{
-    margin-left: 10px;
+.navbar::-webkit-scrollbar {
+  width: 5px;
 }
-.navbar h2{
-    text-align: center;
-    color: #fff;
+.navbar::-webkit-scrollbar-track {
+  background: rgb(82, 82, 82); /* цвет зоны отслеживания */
 }
-.navbar hr{
-    width: 95%;
-    border: 1px solid rgb(82, 82, 82);
+.navbar::-webkit-scrollbar-thumb {
+  background-color: white; /* цвет бегунка */
+  border-radius: 20px; /* округлось бегунка */
+  border: 3px solid white; /* отступ вокруг бегунка */
 }
-.navbar div span{
-    font-size: 0.875rem;
-    line-height: 1.25rem;
+.navbar div {
+  display: flex;
+  width: 100%;
+  margin: 10px 20px;
+  color: #fff;
+  justify-content: flex-start;
+}
+.navbar div:hover {
+  cursor: pointer;
+}
+.navbar div span {
+  margin-left: 10px;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+}
+.navbar h2 {
+  font-weight: 700;
+  padding-left: 8px;
+  white-space: nowrap;
+  text-align: center;
+  color: rgb(113, 113, 113);
+}
+.navbar hr {
+  width: 95%;
+  border: 1px solid rgb(82, 82, 82);
+  white-space: nowrap;
+  margin: 20px 0;
 }
