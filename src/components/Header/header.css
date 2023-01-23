@@ -11,5 +11,6 @@
   border-bottom-right-radius: 3px;
 }
 .header {
-  padding: 10px 0;
+  padding: 13px 0;
+  background-color: rgba(32, 32, 32, 1);
 }

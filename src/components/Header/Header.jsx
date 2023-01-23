@@ -13,7 +13,7 @@ import "./header.css";
 
 const Header = () => {
   return (
-    <div className="header flex justify-between">
+    <div className="header fixed flex justify-between z-10 w-full">
       <div className="flex w-1/6 items-center pl-3">
         <TbAlignJustified color="#fff" size={30} />
         <img className="w-1/1 h-6 pl-5 object-cover" src={logo} alt="logo" />

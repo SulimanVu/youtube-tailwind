@@ -2,3 +2,41 @@
   background-color: rgb(24, 24, 24);
   box-sizing: border-box;
 }
+.card_block::-webkit-scrollbar{
+  width: 0;
+}
+.cards {
+  margin-top: 3.5rem;
+  display: grid;
+  grid-template-columns: repeat(1, minmax(0, 1fr));
+  row-gap: 1.5rem;
+  --tw-bg-opacity: 1;
+  background-color: rgba(24, 24, 24, var(--tw-bg-opacity));
+  padding: 0.5rem;
+}
+@media screen and (min-width: 1280px) {
+  .cards {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    column-gap: 1rem;
+    row-gap: 2.5rem;
+    padding: 1.5rem;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .cards {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    -moz-column-gap: 0.5rem;
+    column-gap: 0.5rem;
+    row-gap: 1.5rem;
+    padding: 1rem;
+  }
+}
+@media screen and (min-width: 768px) {
+  .cards {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    -moz-column-gap: 0.5rem;
+    column-gap: 0.5rem;
+    row-gap: 1.5rem;
+    padding: 1rem;
+  }
+}
